@@ -1,0 +1,22 @@
+L'applicazione è divisa in tre principali configurazioni: 
+
+1- Base => versione base con pagine di presentazione (OA / OF)
+2- City => versione per i comuni (esempio comune di Senigallia)
+3- Company => versione per le aziende (esempio Aset s.p.a)
+
+Configurazioni
+
+- Home Route props (routes.js):
+1- base=true
+2- city=true
+3- company=true
+
+- HeaderTop props (Header.js):
+1- none 
+2- rightLink=true, title => string, logoRight => img
+3- rightLink=true, title => string, logoRight => img
+
+- navBar props (Header.js):
+1- base=true, rightLink=true
+2- city=true, rightLink=true
+3- company=true, rightLink=true
