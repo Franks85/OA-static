@@ -2,7 +2,7 @@
 
 export const baseNavLinkLeft = [
   {
-    title: 'About us',
+    title: 'Chi siamo',
     href:  '/about',
   },
   {

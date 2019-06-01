@@ -6,6 +6,7 @@ const Link = styled.a`
   color: ${props => props.color};
   &:hover {
     color: ${props => props.hoverColor};
+    text-decoration: none;
   }
 `;
 

@@ -23,6 +23,7 @@ export default class Navigation extends React.Component {
       isOpen: !this.state.isOpen
     });
   };
+
   render() {
     const baseNavLeft = baseNavLinkLeft.map(i => {
       return (

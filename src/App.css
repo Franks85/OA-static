@@ -18,6 +18,10 @@
   a:hover {
     color: var(--cp_ov);
   }
+
+  svg {
+    margin: 10px 0;
+  }
   
   .text-primary {
     color: var(--cp) !important;
